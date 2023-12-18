@@ -8,7 +8,7 @@ export default function BADREQUEST({ error }) {
             <p>{error?.msg}</p>
             {/* <p>{error?.stack}</p> */}
 
-            <button className="bg-red-700 rounded px-3 py-1 text-white mt-3" onClick={() => window.location.reload()}>Try again</button>
+            <button className="bg-red-700 rounded-sm px-3 py-1 text-white mt-3" onClick={() => window.location.reload()}>Try again</button>
         </div>
     )
 }
